@@ -1,9 +1,11 @@
 import json 
-a={
+b={
     "4":5,
     "6":7,
     "1":3,
     "2":4}
-b=json.dumps(a,indent=4,sort_keys=True)
+i=0
+while i<len(b):
+    i+=1
 print(b)
-print(a)
+print(type(b))

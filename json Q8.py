@@ -1,7 +1,7 @@
-import json
-a='{"name":"pavni","class":"json","age":4}'
-y=json.loads(a)
-print(y["name"])
+# import json
+# a='{"name":"pavni","class":"json","age":4}'
+# y=json.loads(a)
+# print(y["name"])
 
 
 # list Q
@@ -15,7 +15,7 @@ print(y["name"])
 # print(b)
 
 
-# a=[[5],6,[7,8],9]
-# print(a[2][1])
-# print(a[1])
-# print(a[3])
+a=[[5],6,[7,8],9]
+print(a[2][1])
+print(a[1])
+print(a[3])
